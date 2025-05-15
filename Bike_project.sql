@@ -1,4 +1,3 @@
--- THIS query shows  each brand top sale without discount
 Select brand_name, product_name, round(sum(oi.list_price),2) AS total_profit_per_product
 FROM order_items oi
 JOIN products pr
